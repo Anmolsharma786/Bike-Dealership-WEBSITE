@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html,
+body {
+  height: 100%;
+  background-image: url('back.jpg');
+  background-size: cover;
+
+  background-attachment: fixed;
+}
+h1 {
+  color: #fff;
+}
+.container1 {
+  width:90%;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 200px;
+  color: #fff;
+}
+
+
+section {
+  display:flex;
+  justify-content:space-between;
+}
+
+section img {
+  display:block;
+  height:250px;
+  width: 250px;
+  margin: 5px;
+}
+
+
+header {
+  padding: 50px 0;
+}
+article {
+  height: 500px;
+}
+#legend {
+       font-family: Arial, sans-serif;
+       background: #fff;
+       padding: 10px;
+       margin: 10px;
+       border: 3px solid #000;
+     }
+#legend h3 {
+   margin-top: 0;
+ }
+ #legend img {
+     vertical-align: middle;
+ }
+
+/* Set the size of the div element that contains the map */
+#map {
+  width: 100%; /*width of the parent - article element */
+  height: 100%; /*height of the parent - article element */
+  background-color: grey;
+}
+
+h1 {
+  padding: 20px 0;
+}
